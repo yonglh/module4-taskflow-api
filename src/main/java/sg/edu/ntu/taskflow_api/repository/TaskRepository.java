@@ -16,6 +16,12 @@ public class TaskRepository {
     private final Map<Long, Task> tasks = new HashMap<>();
     private long nextId = 1L;
 
+    public TaskRepository() {
+        save(new Task(null, "Prepare assignment", false));
+        save(new Task(null, "Review lecture notes", true));
+        save(new Task(null, "Submit project", false));
+    }
+
     public List<Task> findAll() {
         return new ArrayList<>(tasks.values());
     }

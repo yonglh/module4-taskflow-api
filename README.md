@@ -1,4 +1,4 @@
-# Taskflow API
+# Taskflow API from Module 3
 
 A Spring Boot REST API for managing tasks. Tasks are stored in memory, so they are cleared when the application restarts.
 
@@ -31,10 +31,19 @@ Task JSON has this shape:
   "completed": false
 }
 ```
-
-# Render Live Application URL
+# Module 4 Assignment
+## Render Live Application URL
 https://module4-taskflow-api-2aus.onrender.com/api/tasks
 
-# Render Dashboard Screenshots
+## Render Dashboard Screenshots
 ![Render dashboard](screenshots/Render-Dashboard1.jpg)
 ![Render dashboard](screenshots/Render-Dashboard2.jpg)
+
+# Sketch Goal Option 1
+Add CI Pipeline using GitHub Action
+
+## GitHub Action Pipeline Run Link
+https://github.com/yonglh/module4-taskflow-api/actions/runs/42165743481
+
+## Docker Hub Image Link
+https://hub.docker.com/repository/docker/yonglh/module4-taskflow-api/tags

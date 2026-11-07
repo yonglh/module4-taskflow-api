@@ -48,12 +48,12 @@ https://github.com/yonglh/module4-taskflow-api/actions/runs/42165743481
 ## Docker Hub Image Link
 https://hub.docker.com/repository/docker/yonglh/module4-taskflow-api/tags
 
-## Sketch Goal Option 2
-Added Front End for the task flow api. 
+# Sketch Goal Option 2
+## Added Front End for the task flow api. 
 Frontend url: https://module4-taskflow-api-frontend.netlify.app
 
-## Sketch Goal Option 4
-Docker Image Versioning
+# Sketch Goal Option 4
+## Docker Image Versioning
 The TaskFlow API Docker image uses Semantic Versioning in the format `MAJOR.MINOR.PATCH`:
 
 - **MAJOR**: increment for incompatible API changes.
@@ -62,4 +62,5 @@ The TaskFlow API Docker image uses Semantic Versioning in the format `MAJOR.MINO
 
 For example, `1.2.3` is major version 1, minor version 2, patch version 3. The CI workflow publishes this versioned tag and also updates `latest` to point to the same image. Use a specific version tag when you need a predictable release; `latest` refers to the most recently published image.
 
+## Docker Hub Screenshots with version tag
 ![Render dashboard](screenshots/Docker-Hub-Tag.jpg)

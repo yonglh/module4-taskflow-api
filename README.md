@@ -43,7 +43,7 @@ https://module4-taskflow-api-2aus.onrender.com/api/tasks
 Added CI Pipeline using GitHub Action
 
 ## GitHub Action Pipeline Run Link
-https://github.com/yonglh/module4-taskflow-api/actions/runs/42165743481
+https://github.com/yonglh/module4-taskflow-api/actions/workflows/ci.yml
 
 ## Docker Hub Image Link
 https://hub.docker.com/repository/docker/yonglh/module4-taskflow-api/tags
